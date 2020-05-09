@@ -998,11 +998,6 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.6.4"
 
-"@ng-stack/api-mock@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@ng-stack/api-mock/-/api-mock-1.2.1.tgz#446cc28166b17dc33461ca9328e892659608651c"
-  integrity sha512-NlUY0CJIxRnMMJK1Y7moyabfGgmoGtCMRNUnaXIoeAgD36QYgBSk3mwjy0bUmAOonqKt2pfUh/ogl775veOk/Q==
-
 "@ngtools/webpack@9.1.5":
   version "9.1.5"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-9.1.5.tgz#df32f559b5d2ce8f056886d8bdd2058e4f9c24f4"
