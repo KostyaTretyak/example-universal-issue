@@ -13,7 +13,7 @@ import { FakeApiService } from './api-mock.service';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule,
     ApiMockModule.forRoot(FakeApiService)
