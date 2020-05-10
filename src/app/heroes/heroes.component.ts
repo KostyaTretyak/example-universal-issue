@@ -11,6 +11,6 @@ export class HeroesComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute) {}
 
   ngOnInit() {
-    this.heroes = this.activatedRoute.snapshot.data.heroListRes as Hero[];
+    this.heroes = this.activatedRoute.snapshot.data.heroes as Hero[];
   }
 }
