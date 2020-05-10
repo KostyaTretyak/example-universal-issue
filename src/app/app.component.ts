@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  template: `
+  <a routerLink="heroes">go to the heroes</a>
+  <router-outlet></router-outlet>`
 })
-export class AppComponent {
-  title = 'test-universal-issue';
-}
+export class AppComponent {}
